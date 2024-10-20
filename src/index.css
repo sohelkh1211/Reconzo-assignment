@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Arima", system-ui;  
+}
+
+.wittgenstein-login {
+  font-family: "Wittgenstein", serif;
+}
+
+@media (min-width: 0px) and (max-width: 640px) {
+  .show {
+    display: none;
+  }
+}
